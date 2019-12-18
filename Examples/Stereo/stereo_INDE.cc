@@ -15,6 +15,8 @@ using namespace cv;
 
 
 // read data frome camera
+// void getCameraData640
+// void getImuData
 int readDataOnline()
 {
     int imutime = 2;
@@ -30,7 +32,7 @@ int readDataOnline()
     pDriver->SetIMUCallback(getImuData);
     sleep(10000000);
     return  1;
-}
+
 
 // start slam
 
@@ -43,3 +45,4 @@ int readDataOnline()
 // IMU  
 // 200
 // 25
+}
