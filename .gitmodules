@@ -1,0 +1,6 @@
+[submodule "Driver_Linux"]
+	path = Driver_Linux
+	url = https://github.com/INDEMIND/Driver_Linux.git
+[submodule "Thirdparty/Driver_Linux"]
+	path = Thirdparty/Driver_Linux
+	url = https://github.com/INDEMIND/Driver_Linux.git
